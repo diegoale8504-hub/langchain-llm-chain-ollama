@@ -1,0 +1,44 @@
+@"
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ENV/
+.conda/
+python.env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python cache / build artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+"@ | Set-Content -Encoding UTF8 .gitignore
